@@ -1,0 +1,103 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c8c1c1;
+    color: rgb(80, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+
+
+
+
+.header-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #978989;
+    color: rgb(232, 220, 220);
+    text-align: center;
+    text-shadow: 5px 5px 4px rgb(109, 104, 104);
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+    width: fit-content;
+    max-width: 80%;
+    border-width: 9px;
+    border-color: rgb(15, 13, 13);
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 6px 6px 1px rgba(8, 8, 8, 0.5);
+    p{
+        color: rgb(0, 0, 0);
+    }
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 5px solid rgb(15, 13, 13);
+    padding: 20px;
+    background-color: #978989;
+    color: rgb(232, 220, 220);
+    text-shadow: 5px 5px 4px rgb(109, 104, 104);
+    
+    
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+}
+
+.faq-card {
+    width: 90%;
+    max-width: 600px; /* Set a maximum width for the card */
+    background-color: #f6f6f6;
+    border-radius: 14px;
+    border: 5px solid rgb(15, 13, 13);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+ol, ul {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ol {
+    color: rgb(103, 76, 76);
+}
+
+
+
+.link {
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(14, 68, 229);
+}
+
+
+
+
+
+
+
+
